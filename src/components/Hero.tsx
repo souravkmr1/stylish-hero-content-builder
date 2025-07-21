@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Users, Award, TrendingUp } from "lucide-react";
-import scholarHatLogo from "@/assets/scholarhat-logo.png";
+import dotnetLogo from "@/assets/dotnet-logo.png";
 
 const Hero = () => {
   return (
@@ -105,8 +105,8 @@ const Hero = () => {
               {/* Logo container */}
               <Card className="relative bg-white/10 backdrop-blur-sm border-white/20 p-12 rounded-3xl shadow-card">
                 <img 
-                  src={scholarHatLogo} 
-                  alt="ScholarHat Logo" 
+                  src={dotnetLogo} 
+                  alt=".NET Logo" 
                   className="w-64 h-64 object-contain mx-auto filter drop-shadow-2xl"
                 />
               </Card>
