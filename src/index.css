@@ -36,8 +36,8 @@ All colors MUST be HSL.
     --input: 220 13% 91%;
     --ring: 236 72% 26%;
 
-    --hero-bg: linear-gradient(135deg, 236 72% 26%, 225 71% 37%);
-    --hero-glow: 236 72% 26% / 0.2;
+    --hero-bg: linear-gradient(135deg, hsl(236 72% 26%), hsl(225 71% 37%));
+    --hero-glow: hsl(236 72% 26% / 0.2);
     --card-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
     --radius: 0.75rem;
